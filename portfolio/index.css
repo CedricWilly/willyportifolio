@@ -1,0 +1,1065 @@
+*{
+ margin: 0;
+ padding: 0;
+
+
+}
+body{
+    
+  
+}
+html{
+    scroll-behavior: smooth;
+}
+#sidebar {
+background:rgb(7, 6, 6);
+width: 250px;
+height: 100%;
+position: fixed;
+list-style: none;
+
+
+}
+#sidebar .img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+    border: 6px solid rgb(55, 55, 55);
+}
+#sidebar .tabs {
+    margin-top: 270px;
+    position: absolute;
+
+}
+#sidebar .tabs li{
+    margin-top: 20px;
+}
+#sidebar .tabs li a:hover {
+  color:rgb(5, 235, 173);
+  
+}
+#sidebar .tabs li a{
+    color: white;
+    list-style: none;
+    margin-left: 90px;
+    text-decoration: none;
+    justify-content: center;
+}
+#sidebar .icon{
+  color: white;
+  font-size: 20px;
+  margin-top: 480px;
+  
+  
+}
+#sidebar .icon li a i{
+   text-decoration: none;
+   color: aliceblue;
+   z-index: 3px;
+}
+#sidebar .icon li{
+    list-style: none;
+    margin-top: 225px;
+    margin-left: 30px;
+    display: inline-block;
+}
+#sidebar p{
+    color: aliceblue;
+    align-items: center;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+#home{
+    width: 100%;
+    background:linear-gradient(to top,rgba(26, 26, 26, 0.8)50% ,rgba(26, 26, 26, 0.8)50%), url('ifoto5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+}
+p{
+    margin-top: 250px;
+    margin-left: 820px;
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+}
+h3{
+    margin-top: 300px;
+    margin-left: 680px;
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+}
+h2{
+    margin-top: 400px;
+    margin-left: 780px;
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+}
+button{
+    margin-top: 450px;
+    margin-left: 810px;
+    position: absolute;
+    font-size: 20px;
+    background: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    color: rgb(5, 235, 173);
+    border: 2px solid rgb(5, 235, 173);
+    
+}
+#aboutme{
+    width: 100px;
+    height: 700px;
+   
+    
+
+}
+.aboutme p{
+    margin-top: 30px;
+    margin-left: 600px;
+    position: absolute;
+    color: #00000020;
+    font-size: 90px;
+    z-index: 3;
+
+}
+.aboutme h3{
+    margin-top: 65px;
+    margin-left: 740px;
+    position: absolute;
+    color: #000;
+    font-size: 30px;
+    
+    
+}
+.aboutme h3:before{
+    content: "";
+    width: 120px;
+    height: 4px;
+    background-color: rgb(5, 235, 173);
+    position: absolute;
+    top: 30px;
+    left: 45px;
+
+}
+.aboutme h2{
+    margin-top: 160px;
+    margin-left: 450px;
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+}
+.p p{
+    margin-top: 225px;
+    margin-left: 450px;
+    position: absolute;
+    color: #000;
+    font-size: 17px;
+}
+.p1 p{
+    margin-top: 255px;
+    margin-left: 450px;
+    position: absolute;
+    color: #000;
+    font-size: 17px;
+}
+.p2 p{
+    margin-top: 280px;
+    margin-left: 450px;
+    position: absolute;
+    color: #000;
+    font-size: 17px;
+}
+.p3 p{
+    margin-top: 325px;
+    margin-left: 450px;
+    position: absolute;
+    color: #000;
+    font-size: 17px;
+}
+.p4 p{
+    margin-top: 355px;
+    margin-left: 450px;
+    position: absolute;
+    color: #000;
+    font-size: 17px;
+}
+.info{
+    margin-top: 209px;
+    margin-left: 1150px;
+    position: absolute;
+    color: #000;
+    font-size: 17px;
+    list-style: none;
+}
+.info li{
+    margin-top: 15px;
+    border-bottom: 1px solid #0000004d;
+}
+.info li #btn {
+    background-color: rgb(5, 235, 173);
+    border-radius: 20px;
+    width: 100px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 10px;
+    color: #fff;
+    font-style: initial;
+}
+.number {
+  color: #00000055;
+  font-size: 30px;
+  margin-left: 450px;
+  position: absolute;
+  top: 1300px;
+  border-right: 1px solid #00000013;
+  width: 165px;
+  height: 100px;
+  border-bottom: 1px solid #00000013;
+} 
+ .number label{
+    font-size: 20px;
+
+}
+
+.number1 {
+    
+  color: #00000055;
+  font-size: 30px;
+  margin-left: 700px;
+  position: absolute;
+  top: 1300px;
+  border-right: 1px solid #00000013;
+  width: 165px;
+  height: 100px;
+  border-bottom: 1px solid #00000013;
+} 
+ .number1 label{
+    font-size: 20px;
+
+}
+.number2 {
+    
+  color: #00000055;
+  font-size: 30px;
+  margin-left: 950px;
+  position: absolute;
+  top: 1300px;
+  border-right: 1px solid #00000013;
+  width: 165px;
+  height: 100px;
+  border-bottom: 1px solid #00000013;
+} 
+ .number2 label{
+    font-size: 20px;
+
+}
+.number3 {
+    
+  color: #00000055;
+  font-size: 30px;
+  margin-left: 1200px;
+  position: absolute;
+  top: 1300px;
+  border-right: 1px solid #00000013;
+  width: 165px;
+  height: 100px;
+  border-bottom: 1px solid #00000013;
+} 
+.number3 label{
+    font-size: 20px;
+
+}
+#whatido{
+    width: 100px;
+    height: 700px;
+
+}
+#whatido.icon {
+   color: #000;
+   font-size: 20px;
+  
+}
+#whatido.icon li a i{
+   text-decoration: none;
+   color: aliceblue;
+    
+}
+#whatido.icon li{
+    list-style: none;
+    margin-top: 225px;
+    margin-left: 30px;
+    display: inline-block;
+}
+#whatido .service p{
+    margin-top:20px;
+    margin-left: 600px;
+    position: absolute;
+    color: #00000020;
+    font-size: 90px;
+    z-index: 3;
+}
+#whatido .service h2{
+    margin-top:55px;
+    margin-left: 750px;
+    position: absolute;
+    color: #000000;
+    font-size: 30px;
+    z-index: 3;
+}
+#whatido .service h2:before{
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: rgb(5, 235, 173);
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+#whatido .topic p{
+    color: #000;
+    margin-left: 450px;
+    margin-top: 200px;
+}
+#whatido .topic2 p{
+    color: #000;
+    margin-left: 450px;
+    margin-top: 320px;
+}
+#whatido .topic3 p{
+    color: #000;
+    margin-left: 450px;
+    margin-top: 420px;
+}
+#whatido .topic4 p{
+    color: #000;
+    margin-left: 995px;
+    margin-top: 200px;
+}
+#whatido .topic5 p{
+    color: #000;
+    margin-left: 999px;
+    margin-top: 310px;
+}
+#whatido .topic6 p{
+    color: #000;
+    margin-left: 999px;
+    margin-top: 420px;
+}
+
+#whatido .words p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 450px;
+    font-size: 20px;
+}
+#whatido .p1 p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 450px;
+    font-size: 20px;
+    margin-top: 270px;
+}
+#whatido .words1 p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 450px;
+    font-size: 20px;
+    margin-top: 360px;
+}
+#whatido .p2 p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 450px;
+    font-size: 20px;
+    margin-top: 380px;
+}
+#whatido .words2 p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 450px;
+    font-size: 20px;
+    margin-top: 460px;
+}
+#whatido .p3 p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 450px;
+    font-size: 20px;
+    margin-top: 480px;
+}
+#whatido .words3 p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 450px;
+    font-size: 20px;
+    margin-top: 460px;
+}
+#whatido .p4 p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 450px;
+    font-size: 20px;
+    margin-top: 480px;
+}
+#whatido .words4 p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 1000px;
+    font-size: 20px;
+    margin-top: 250px;
+}
+#whatido .p5 p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 1000px;
+    font-size: 20px;
+    margin-top: 270px;
+}
+#whatido .words5 p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 1000px;
+    font-size: 20px;
+    margin-top: 360px;
+}
+#whatido .p6 p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 1000px;
+    font-size: 20px;
+    margin-top: 380px;
+}
+#whatido .words6 p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 1000px;
+    font-size: 20px;
+    margin-top: 460px;
+}
+#whatido .p7 p{
+    color: #03030392;
+    position: absolute;
+    margin-left: 1000px;
+    font-size: 20px;
+    margin-top: 480px;
+}
+#resume{
+    width: 100px;
+    height: 640px;
+}
+#resume .header p{
+    margin-top:20px;
+    margin-left: 600px;
+    position: absolute;
+    color: #00000020;
+    font-size: 90px;
+    z-index: 0;
+}
+#resume .header h2{
+    margin-top:55px;
+    margin-left: 780px;
+    position: absolute;
+    color: #000000;
+    font-size: 30px;
+    z-index: 3;
+}
+#resume .header h2:before{
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: rgb(5, 235, 173);
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+#resume .topic p{
+    color: #000;
+    margin-left: 450px;
+    margin-top: 200px;
+}
+#resume .year p{
+    color: #fff;
+    margin-left: 450px;
+    margin-top: 260px;
+    font-size: 20px;
+    background-color: rgb(5, 235, 173);
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    
+}
+#resume .title p{
+    color: #000;
+    margin-left: 450px;
+    margin-top: 300px;
+    font-size: 25px;
+}
+#resume .university p{
+    color: rgb(233, 2, 2);
+    margin-left: 450px;
+    margin-top: 340px;
+    font-size: 20px;
+}
+#resume .w1 p{
+    margin-top: 400px;
+    margin-left: 450px;
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+}
+#resume .p1 p{
+    margin-top: 420px;
+    margin-left: 450px;
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+}
+#resume .topic1 p{
+    color: #000;
+    margin-left: 950px;
+    margin-top: 200px;
+}
+#resume .year1 p{
+    color: #fff;
+    margin-left: 950px;
+    margin-top: 260px;
+    font-size: 20px;
+    background-color: rgb(5, 235, 173);
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    
+}
+#resume .title1 p{
+    color: #000;
+    margin-left: 950px;
+    margin-top: 300px;
+    font-size: 25px;
+}
+#resume .university1 p{
+    color:rgb(233, 2, 2);
+    margin-left: 950px;
+    margin-top: 340px;
+    font-size: 20px;
+}
+#resume .w2 p{
+    margin-top: 400px;
+    margin-left: 950px;
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+}
+#resume .p2 p{
+    margin-top: 420px;
+    margin-left: 950px;
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+}
+#resume .topic2 p{
+    color: #000;
+    margin-left: 950px;
+    margin-top: 200px;
+}
+#resume .year2 p{
+    color: #fff;
+    margin-left: 950px;
+    margin-top: 480px;
+    font-size: 20px;
+    background-color: rgb(5, 235, 173);
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    
+}
+#resume .title2 p{
+    color: #000;
+    margin-left: 950px;
+    margin-top: 520px;
+    font-size: 25px;
+}
+#resume .university2 p{
+    color: rgb(233, 2, 2);
+    margin-left: 950px;
+    margin-top: 560px;
+    font-size: 20px;
+}
+#resume .w3 p{
+    margin-top: 620px;
+    margin-left: 950px;
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+}
+#resume .p3 p{
+    margin-top: 640px;
+    margin-left: 950px;
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+}
+#resume .topic3 p{
+    color: #000;
+    margin-left: 450px;
+    margin-top: 200px;
+}
+#resume .year3 p{
+    color: #fff;
+    margin-left: 450px;
+    margin-top: 480px;
+    font-size: 20px;
+    background-color: rgb(5, 235, 173);
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    
+}
+#resume .title3 p{
+    color: #000;
+    margin-left: 450px;
+    margin-top: 520px;
+    font-size: 25px;
+}
+#resume .university3 p{
+    color: rgb(233, 2, 2);
+    margin-left: 450px;
+    margin-top: 560px;
+    font-size: 20px;
+}
+#resume .w4 p{
+    margin-top: 620px;
+    margin-left: 450px;
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+}
+#resume .p4 p{
+    margin-top: 640px;
+    margin-left: 450px;
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+}
+
+#mywork{
+    width: 100px;
+    height: 1060px;
+    margin-top: 150px;
+}
+#mywork .heading p{
+    margin-top:20px;
+    margin-left: 600px;
+    position: absolute;
+    color: #00000020;
+    font-size: 90px;
+    
+}
+#mywork .heading h2{
+    margin-top:55px;
+    margin-left: 800px;
+    position: absolute;
+    color: #000000;
+    font-size: 30px;
+    z-index: 3;
+}
+#mywork .heading h2:before{
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: rgb(5, 235, 173);
+    position: absolute;
+    top: 35px;
+    left: 15px;
+}
+#mywork .all {
+  margin-top: 150px;
+  margin-left: 730px;
+  position: absolute;
+  list-style: none;
+  color:rgb(5, 235, 173);
+}
+#mywork .all:before{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: rgb(5, 235, 173);
+    position: absolute;
+    top: 25px;
+    left: -7px;
+}
+#mywork .desing{
+    margin-top: 150px;
+    margin-left: 780px;
+    position: absolute;
+    list-style: none;
+}
+#mywork .brand{
+    margin-top: 150px;
+    margin-left: 850px;
+    position: absolute;
+    list-style: none;
+}
+#mywork .photos{
+    margin-top: 150px;
+    margin-left: 920px;
+    position: absolute;
+    list-style: none;
+}
+ #mywork .row #img1 {
+    margin-top: 230px;
+    margin-left: 700px;
+    width: 20%;
+    height: 65%;
+    position: absolute;
+    border-radius: 10px;
+  }
+  #mywork .row #img2 {
+    margin-top: 230px;
+    margin-left: 370px;
+    width: 20%;
+    height: 35%;
+    position: absolute;
+    border-radius: 10px;
+  }
+  #mywork .row #img3 {
+    margin-top: 230px;
+    margin-left: 1030px;
+    width: 20%;
+    height: 35%;
+    position: absolute;
+    border-radius: 10px;
+  }
+  #mywork .row #img4 {
+    margin-top: 515px;
+    margin-left: 370px;
+    width: 20%;
+    height: 65%;
+    position: absolute;
+    border-radius: 10px;
+  }
+  #mywork .row #img5 {
+    margin-top: 520px;
+    margin-left: 1030px;
+    width: 20%;
+    height: 35%;
+    position: absolute;
+    border-radius: 10px;
+  }
+  #mywork .row #img6 {
+    margin-top: 740px;
+    margin-left: 700px;
+    width: 20%;
+    height: 45%;
+    position: absolute;
+    border-radius: 10px;
+  }
+  #mywork .row #img7 {
+    margin-top: 810px;
+    margin-left: 1030px;
+    width: 20%;
+    height: 35%;
+    position: absolute;
+    border-radius: 10px;
+  }
+  
+#testimonial{
+    width: 100px;
+    height: 700px;
+}
+#testimonial .clientspeak p{
+    margin-top:20px;
+    margin-left: 600px;
+    position: absolute;
+    color: #00000020;
+    font-size: 90px;
+
+}
+#testimonial .clientspeak h2{
+    margin-top:55px;
+    margin-left: 820px;
+    position: absolute;
+    color: #000000;
+    font-size: 30px;
+    z-index: 3;
+}
+#testimonial .clientspeak h2:before{
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: rgb(5, 235, 173);
+    position: absolute;
+    top: 35px;
+    left: 43px;
+}
+#testimonial .profile img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 200px;
+    
+}
+#testimonial .name p{
+    margin-top:210px;
+    margin-left: 550px;
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+
+}
+#testimonial .name h2{
+    margin-top:240px;
+    margin-left: 550px;
+    position: absolute;
+    color: #00000055;
+    font-size: 15px;
+
+}
+#testimonial .topic p{
+    font-size: 20px;
+    margin-top: 300px;
+    margin-left: 450px;
+    position: absolute;
+    color: #000;
+}
+#testimonial .topic1 p{
+    font-size: 20px;
+    margin-top: 330px;
+    margin-left: 460px;
+    position: absolute;
+    color: #000;
+}
+#testimonial .topic2 p{
+    font-size: 20px;
+    margin-top: 360px;
+    margin-left: 460px;
+    position: absolute;
+    color: #000;
+}
+#testimonial .profile2 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 200px;
+    
+}
+#testimonial .name1 p{
+    margin-top:210px;
+    margin-left: 1100px;
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+
+}
+#testimonial .name1 h2{
+    margin-top:240px;
+    margin-left: 1100px;
+    position: absolute;
+    color: #00000055;
+    font-size: 15px;
+
+}
+#testimonial .king p{
+    font-size: 20px;
+    margin-top: 300px;
+    margin-left: 1000px;
+    position: absolute;
+    color: #000;
+}
+#testimonial .queen p{
+    font-size: 20px;
+    margin-top: 330px;
+    margin-left: 1010px;
+    position: absolute;
+    color: #000;
+}
+#testimonial .prince p{
+    font-size: 20px;
+    margin-top: 360px;
+    margin-left: 1010px;
+    position: absolute;
+    color: #000;
+}
+#testimonial .color{
+    background-color: whitesmoke;
+}
+#contact{
+    width: 100px;
+    height: 700px;
+}
+#contact .getintouch p{
+    margin-top:20px;
+    margin-left: 650px;
+    position: absolute;
+    color: #00000020;
+    font-size: 90px;
+}
+#contact .getintouch h2{
+    margin-top:55px;
+    margin-left: 800px;
+    position: absolute;
+    color: #000000;
+    font-size: 30px;
+    z-index: 3;
+}
+#contact .getintouch h2:before{
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: rgb(5, 235, 173);
+    position: absolute;
+    top: 35px;
+    left: 43px;
+}
+#contact .address p{
+    color: #000;
+    font-size: 20px;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+#contact .address1 p{
+    color: #00000099;
+    font-size: 20px;
+    margin-top: 240px;
+    margin-left: 400px;
+}
+#contact .address2 p{
+    color: #00000099;
+    font-size: 20px;
+    margin-top: 275px;
+    margin-left: 400px;
+}
+#contact .address3 p{
+    color: #00000099;
+    font-size: 20px;
+    margin-top: 310px;
+    margin-left: 400px;
+}
+#contact .nbr p{
+    color: #00000099;
+    font-size: 20px;
+    margin-top: 340px;
+    margin-left: 420px;
+}
+#contact .nbr1 p{
+    color: #00000099;
+    font-size: 20px;
+    margin-top: 370px;
+    margin-left: 420px;
+}
+#contact .nbr2 p{
+    color: #00000099;
+    font-size: 20px;
+    margin-top: 400px;
+    margin-left: 420px;
+}
+#contact .website p{
+    color: #000;
+    font-size: 20px;
+    margin-top: 440px;
+    margin-left: 400px;
+}
+#contact.icon2 {
+    color: #000;
+    font-size: 20px;
+   
+ }
+ #contact.icon2 li a i{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+     
+ }
+ #contact.icon2 li{
+     list-style: none;
+     margin-top: 440px;
+     margin-left: 400px;
+     display: inline-block;
+     z-index: 3;
+ }
+ #contact .input p{
+        color: #000;
+        font-size: 20px;
+        margin-top: 125px;
+        margin-left: 700px;
+
+ }
+ #contact .input input{
+    width: 350px;
+    height: 50px;
+    background-color: whitesmoke;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 700px;
+    border-radius: 10px;
+    color: #000;
+    padding: 0px 0px 0px 11px;
+    
+ }
+ #contact .email input{
+    width: 350px;
+    height: 50px;
+    background-color: whitesmoke;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 1090px;
+    border-radius: 10px;
+    color: #000;
+    padding: 0px 0px 0px 11px;
+ }
+ #contact .big input{
+    width: 740px;
+    height: 140px;
+    background-color: whitesmoke;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 700px;
+    border-radius: 10px;
+   color: #000;
+    padding: 0px 0px 0px 11px;
+    font-size: 30px;
+    
+ }
+ #contact button {
+    margin-top: 410px;
+    margin-left: 1000px;
+    position: absolute;
+    font-size: 17px;
+    background: rgb(5, 235, 173) ;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    color: white
+    
+    
+ }
+ #contact .footer p{
+    color: black;
+    margin-top: 590px;
+    margin-left: 390px;
+    font-size: 20px;
+ }
+ #contact .footer1 p{
+    color: black;
+    margin-top: 590px;
+    margin-left: 1200px;
+    font-size: 20px;
+ }
+ 
+

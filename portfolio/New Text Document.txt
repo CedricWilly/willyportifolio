@@ -1,0 +1,5 @@
+  width: 100%;
+   background:linear-gradient(to top,rgba(0, 0, 0, 0.8)50% ,rgba(0, 0, 0, 0.8)50%), url('ifoto5.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 109vh;
